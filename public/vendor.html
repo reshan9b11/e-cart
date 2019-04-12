@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="jquery.js"></script>
+  <script src="vendorslist.js"></script>
+  <style>
+   input{
+        width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(27, 1, 1);
+  border-radius: 25px;
+  background-color:aquamarine;
+      }
+      body {
+  background-image: url("paper.gif");
+  background-repeat: repeat;
+}
+button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button.mm{
+  background-color: rgb(235, 90, 6); 
+} 
+  </style>
+</head>
+<body>
+  <h1>VENDORS</h1>
+
+  <input id="vendorname" placeholder="Vendor name">
+  <br>
+  <button id="addtask"> Add Task </button>
+  
+  <ul id="vendorlist">
+    <li>sample data</li>
+  </ul>
+</body>
+</html>
